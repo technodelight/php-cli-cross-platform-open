@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "557aefea94d1e755b0063760d7c1833e",
+    "packages": [
+        {
+            "name": "technodelight/shell-exec",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/technodelight/shell-exec.git",
+                "reference": "6b2076303fd1da42ea57e141f9695f2f3792ddc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/technodelight/shell-exec/zipball/6b2076303fd1da42ea57e141f9695f2f3792ddc7",
+                "reference": "6b2076303fd1da42ea57e141f9695f2f3792ddc7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "behat/behat": "^3.4",
+                "phpspec/phpspec": "^4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Technodelight\\ShellExec\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zsolt Gál",
+                    "email": "zenc@zenc.hu"
+                }
+            ],
+            "description": "Assemble commands and execute in shell with PHP easier",
+            "time": "2018-06-20T15:57:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

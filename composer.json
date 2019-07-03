@@ -1,0 +1,24 @@
+{
+    "name": "technodelight/php-cli-cross-platform-open",
+    "description": "Opens a file or URL in the user's preferred application in CLI (cross platform)",
+    "type": "library",
+    "require": {
+        "technodelight/shell-exec": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zsolt Gál",
+            "email": "zenc@zenc.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Technodelight\\CliOpen\\": "src"}
+    },
+    "scripts": {
+        "test": [
+            "find src -type f -name \"*.php\" | xargs -n1 php -l",
+            "composer diagnose"
+        ]
+    }
+}
